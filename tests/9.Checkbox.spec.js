@@ -6,9 +6,9 @@ test('verify check box in playwright',async({page})=>{
     await page.waitForTimeout(3000)
     await page.locator('#sunday').click()
 
-    await page.locator('#sunday').check()
+    await page.locator('#monday').check()
     await page.waitForTimeout(3000)
-    await page.locator('#sunday').check()
+    await page.locator('#monday').check()
     await page.waitForTimeout(3000)
 
     
