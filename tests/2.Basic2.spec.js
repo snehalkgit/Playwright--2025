@@ -14,3 +14,4 @@ test("verify title and url of page", async ({ page }) => {
     console.log(pageurl)
     await expect(page).toHaveURL('https://www.demoblaze.com/')
 })
+
